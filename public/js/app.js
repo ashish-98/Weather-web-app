@@ -3,8 +3,6 @@ const search = document.querySelector('input')
 const messageOne = document.querySelector('#message-1')
 const messageTwo = document.querySelector('#message-2')
 
-
-
 weather.addEventListener('submit',(e) => {
      e.preventDefault()
      const location = search.value
